@@ -1,0 +1,30 @@
+{
+  "name": "logs",
+  "version": "1.0.0",
+  "description": "medium logs monitoring and nodejs in harmony",
+  "main": "main.js",
+  "author": "ralvescosta <rafael.rac.mg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "NODE_ENV=development node src/main.js | pino-pretty -c"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "pino": "^6.11.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.2",
+    "@types/pino": "^6.3.8",
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "pino-pretty": "^5.0.2"
+  }
+}
